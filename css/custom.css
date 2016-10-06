@@ -1,0 +1,95 @@
+
+		      body{
+		  background-color:#edf0f5;
+		  }
+		  .aln-right { float: right; }
+		  
+		  .navbar-default{
+		    background-color:#808080;
+		    border-bottom:none;
+		  }
+		  
+		  .navbar-default .navbar-logo{
+		      color:#fff;
+		      font-size:40px;
+		      font-weight:bold;
+		    }
+		  .navbar-default .navbar-logo:focus, .navbar-default .navbar-logo:hover{color:#fff; text-decoration: none;}
+		  .form .form-control { margin-bottom: 10px; }
+
+		  @media (min-width:768px) {
+		  }
+		   
+		    
+		 @media (max-width:500px) {
+
+		 	.navbar-logo .logo img {width:101px !important;}
+			.profile img {width:12px;}
+			.profile {float:none !important;}
+		}
+
+		.navbar-logo img {
+	    width: 100px !important;
+	}
+	.profile {
+	    float: right;
+	}
+	.profile img {
+	    margin-right: -107px;
+	    padding-bottom: 10px;
+	    padding-left: 10px;
+	    padding-top: 10px;
+	    width: 53px;
+	}
+
+	.sidebar-menu ul {
+	    margin: 0; 
+	    padding: 0;
+	    width:105px;
+	    list-style-type: none;
+	}
+
+	.sidebar-menu ul li a {
+	    text-decoration: none;
+	    color: white; 
+	    padding: 10.5px 11px;
+	    background-color: #005555;
+	    display:block;
+	}
+	 
+	.sidebar-menu ul li a:visited {
+	    color: white;
+	}
+	 
+	.sidebar-menu ul li a:hover, .sidebar-menu ul li .current {
+	    color: white;
+	    background-color: #5FD367;
+	}
+	.text-sm {
+	    font-size: 13px;
+	}
+	.col-md-2.sidebar-menu {
+	    text-align: center;
+	}
+
+
+	.sidebar-menu li {
+	    border-bottom: 1px solid #cdcdcd;
+	    height: 72px;
+	}
+	h3 {color:#fff ;}
+	.navbar-head {background-color: #ab47bc;}
+
+	.course { background-color: #9c27b0;
+	    
+	    color: #fff;
+	    padding: 10px;}
+
+	 .py {background-color: #2196f3;color: #fff;
+	    padding: 10px;}
+	 .course-pro {
+	background-color: #673ab7;
+	    color: #fff;
+	    margin-top: 50px;
+	    padding: 10px;
+	 }

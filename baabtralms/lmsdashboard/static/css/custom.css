@@ -18,6 +18,21 @@ font-weight:bold;
 
 width: 50px;
 }
+.menured {
+color:#db4437;
+}
+.menuorenge {color:#f4511e;}
+.menublue {color:#00acc1;}
+.menublue2{color: #4285f4;}
+.menulst {color: #9c27b0;}
+
+.menured:hover {
+color:#fff;background-color:#db4437;
+}
+.menuorenge:hover {background-color:#f4511e; color:#fff;}
+.menublue:hover {color:#fff; background-color:#00acc1;}
+.menublue2:hover{color: #fff;background-color:#4285f4;}
+.menulst:hover {color: #fff;background-color:#9c27b0;}
 
 @media (min-width:768px) {
 }

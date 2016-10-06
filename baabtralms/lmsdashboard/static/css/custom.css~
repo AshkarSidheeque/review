@@ -1,11 +1,11 @@
 body{
-background-color:#edf0f5;
-}
+font-family: "Open Sans",sans-serif; color:#777; font-size:14px;}
 .aln-right { float: right; }
 
 .navbar-default{
 background-color:#808080;
 border-bottom:none;
+height: 10px;
 }
 
 .navbar-default .navbar-logo{
@@ -13,39 +13,59 @@ color:#fff;
 font-size:40px;
 font-weight:bold;
 }
-.navbar-default .navbar-logo:focus, .navbar-default .navbar-logo:hover{color:#fff; text-decoration: none;}
-.form .form-control { margin-bottom: 10px; }
+
+.profile img {
+
+width: 50px;
+}
+.menured {
+color:#db4437;
+}
+.menuorenge {color:#f4511e;}
+.menublue {color:#00acc1;}
+.menublue2{color: #4285f4;}
+.menulst {color: #9c27b0;}
+
+.menured:hover {
+color:#fff;background-color:db4437;
+}
+.menuorenge:hover {background-color:#f4511e; color:#fff;}
+.menublue:hover {color:#fff; background-color:#00acc1;}
+.menublue2:hover{color: #fff;background-color:#4285f4;}
+.menulst:hover {color: #fff;background-color:#9c27b0;}
 
 @media (min-width:768px) {
 }
 
 
 @media (max-width:500px) {
-
+.sidebar-menu,.menu,.profile {display: none;}
 .navbar-logo .logo img {width:101px !important;}
 .profile img {width:12px;}
 .profile {float:none !important;}
 }
 
 .navbar-logo img {
-width: 100px !important;
+ padding: 5px;
+    width: 150px !important;
 }
-.profile {
+.profile, .menu {
 float: right;
 }
-.profile img {
-margin-right: -107px;
-padding-bottom: 10px;
-padding-left: 10px;
-padding-top: 10px;
-width: 53px;
-}
 
+
+
+.menu {margin-top:10px;}
+.menu a {color:#fff; font-family: "Open Sans",sans-serif;
+    padding: 10px;	}
+.sidebar-menu {padding: 0px;}
 .sidebar-menu ul {
 margin: 0; 
 padding: 0;
 width:105px;
 list-style-type: none;
+text-align: center;
+background-color: #fff;
 }
 
 .sidebar-menu ul li a {
@@ -72,8 +92,10 @@ text-align: center;
 }
 
 .sidebar-menu li {
-border-bottom: 1px solid #cdcdcd;
-height: 72px;
+  border-bottom: 1px solid #cdcdcd;
+    font-size: 20px;
+    height: 72px;
+    padding: 10px;
 }
 h3 {color:#fff ;}
 .navbar-head {background-color: #ab47bc;}
@@ -84,10 +106,23 @@ color: #fff;
 padding: 10px;}
 
 .py {background-color: #2196f3;color: #fff;
-padding: 10px;}
+padding: 10px; height: 450px;overflow-y: scroll; overflow-x: hidden;}
 .course-pro {
 background-color: #673ab7;
 color: #fff;
-margin-top: 50px;
 padding: 10px;
 }
+.nav-tabs a {color: #fff;background:none !important; border: none;}
+.nav-tabs a:hover{background-color: none !important; border: none;}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {border:none;  !important;}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {color:#fff;}
+#todo > ul {padding:0;}
+#todo > ul > li {border-bottom: 1px solid #cdcdcd; padding:20px; list-style: none;}
+.tab-content {color:#777 !important;}
+#todo {font-size:17px;}
+
+#pending > ul {padding:0;}
+#pending > ul > li {border-bottom: 1px solid #cdcdcd; padding:20px; list-style: none;}
+
+#pending {font-size:17px;}
+.dropdown-menu { min-width: 134px;}
